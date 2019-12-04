@@ -22,7 +22,7 @@ public class ExampleINterface implements Example{
 	public static void main(String args[])
 	
 	{
-		ExampleINterface obj=new ExampleINterface();
+		Example obj=new ExampleINterface();
 		obj.method1();
 		obj.method2();
 		obj.method3();
