@@ -2,7 +2,7 @@ package myprogramz;
 
 import java.util.Scanner;
 
-public class Objprgm1 {
+public class RegisterPerson {
 	String name;
 	String address;
 	String contactNumber;
