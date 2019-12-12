@@ -11,7 +11,7 @@ public class RegisterPerson {
 	String proofID;
 	
 	public static void main(String[] args) {
-		Objprgm1 obj=new Objprgm1();
+		RegisterPerson obj=new RegisterPerson();//Create Object
 		int id=1;
 		
 		Scanner sc=new Scanner(System.in);
