@@ -1,7 +1,7 @@
 package myprogramz;
 import java.util.Scanner;
 
-public class Objprgm2 {
+public class RegisterPerson1 {
 
 
 	String name;
@@ -11,9 +11,9 @@ public class Objprgm2 {
 	String proofTyp;
 	String proofID;
 	
-	public Objprgm2(String name, String address, String contactNumber, String email, String proofTyp, String proofID)
+	public RegisterPerson1(String name, String address, String contactNumber, String email, String proofTyp, String proofID)
 	{
-		this.name=name;
+		this.name=name;  //Consturctor of RegisterPerson1
 		this.address=address;
 		this.contactNumber=contactNumber;
 		this.email=email;
@@ -63,7 +63,7 @@ System.out.println("Thank you for registering. Your id is "+id);
 		String proofID;
 		System.out.println("Enter your proofid ");
 		proofID=sc.nextLine();
-		Objprgm2 obj=new Objprgm2(name,address,contactNumber,email,proofTyp,proofID);
+		RegisterPerson1 obj=new RegisterPerson1(name,address,contactNumber,email,proofTyp,proofID);
 		obj.Register(name,address,contactNumber,email,proofTyp,proofID);
 		
 		sc.close();
