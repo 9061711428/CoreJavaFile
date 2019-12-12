@@ -1,23 +1,23 @@
 package myprogramz;
 import java.util.Scanner;
-public class corejavagetname {
+public class GetnameUser {
 	String name;
 	String address;
 	String contactNumber;
 	String email;
 	String proofTyp;
 	String proofID;
-	public void setname(String name)
+	public void setname(String name)//Method for Set name
 	{
 		this.name=name;
 		
 	}
-	public void setaddress(String address)
+	public void setaddress(String address)//Method for Set address
 	{
 		this.address=address;
 		
 	}
-	public void setcontactNumber(String contactNumber)
+	public void setcontactNumber(String contactNumber)//Method for Set name
 	{
 		this.contactNumber=contactNumber;
 		
@@ -37,7 +37,7 @@ public class corejavagetname {
 		this.proofID=proofID;
 		
 	}
-	public String getname()
+	public String getname()//Get name from user
 	{
 		return this.name;
 		
