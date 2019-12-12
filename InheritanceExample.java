@@ -1,13 +1,13 @@
 package myprogramz;
 import java.util.Scanner;
-public class A extends B{//childclass
+public class InheritanceExample extends B{//childclass extends baseclass B
 	
-	public void add(int a,int b)
+	public void add(int a,int b)//Method for add numbers
 	{
 		int sum=a+b;
 		System.out.println("sum is\t:"+sum);
 	}
-	public static void main(String args[]) {
+	public static void main(String args[]) {//main method
 		int a,b;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter first number");
