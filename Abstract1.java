@@ -1,6 +1,6 @@
 package myprogramz;
 
-public class Abstract1 {
+public class AbstractExample1{
 	
 		public static void main(String args[])
 		{
@@ -9,21 +9,21 @@ public class Abstract1 {
 		racoon.breathe();
 		}
 		}
-		abstract class Food{
+		abstract class Food{//abstract class
 
 		private String name;
 		public Food  (String name) {
 		this.name=name;
 		}
-		public abstract void eat();
-		public abstract void breathe();
+		public abstract void eat();//abstract method
+		public abstract void breathe();//abstract method
 		public String getName(){
 		return name;
 		}
 		}
 		class Racoon extends Food{
 		public Racoon(String name){
-		super(name);
+		super(name);//call superclass 
 		}
 		public void eat(){
 		System.out.println(getName()+" is eating");
